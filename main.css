@@ -7,13 +7,13 @@ font-family: Arial;
   color: red;
 }
 
-a:hover{
-  color: black;
-}
-
 a:visited {
   color: mediumaquamarine;
 }
 a:link {
   text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }
