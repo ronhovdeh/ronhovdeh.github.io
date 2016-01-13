@@ -9,3 +9,10 @@ font-family: Arial;
 a:hover{
   color:antiquewhite
 }
+
+a:visited {
+  text-decoration: aquamarine;
+}
+a:link {
+  text-decoration: none;
+}
