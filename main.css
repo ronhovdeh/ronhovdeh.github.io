@@ -6,12 +6,13 @@ body {
 font-family: Arial;
   color: red;
 }
+
 a:hover{
-  color: antiquewhite;
+  color: black;
 }
 
 a:visited {
-  color: aquamarine;
+  color: mediumaquamarine;
 }
 a:link {
   text-decoration: none;
