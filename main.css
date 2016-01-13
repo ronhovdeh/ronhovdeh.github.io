@@ -6,3 +6,9 @@ body {
 font-family: Arial;
   color: red;
 }
+a:hover{
+  color:antiquewhite
+}
+a:visited {
+  text-decoration: none;
+}
