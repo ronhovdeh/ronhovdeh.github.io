@@ -11,7 +11,7 @@ a:hover{
 }
 
 a:visited {
-  text-decoration: aquamarine;
+  color: aquamarine;
 }
 a:link {
   text-decoration: none;
