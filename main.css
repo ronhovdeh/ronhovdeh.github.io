@@ -19,5 +19,9 @@ a:hover {
 }
 
 nav {
-background-color:mediumpurple;
+background-color:purple;
+}
+
+.backgrounda{
+  background-color: darkseagreen;
 }
