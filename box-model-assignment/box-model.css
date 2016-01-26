@@ -30,6 +30,12 @@ padding: 10px 10px 10px 10px;
   font-family:arial;
 }
 
+.footer{
+border: 2px dotted slategray;
+  margin-bottom: 5px;
+  font-family:arial;
+}
+
 .topnav{
   text-decoration: none;
   color:white;
