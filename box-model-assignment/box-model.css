@@ -1,0 +1,44 @@
+body {
+  margin: 20px;
+  font-family: arial;
+}
+
+.header{
+  background-color: lightgrey;
+  font-size: 22px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  border: 2px dotted slategray;
+  width: 800px;
+  margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+
+img{
+border:2px dotted slategray;
+padding: 10px 10px 10px 10px;
+}
+.footer{
+  border: 2px dotted slategray;
+  margin-bottom: 5px;
+  font-family:arial;
+}
+
+.topnav{
+  text-decoration: none;
+  color:white;
+  padding: 10px 20px 10px 20px;
+  background-color: darkslategrey;
+  background-radius: 6px;
+}
+
+.botnav{
+  color: lightgrey;
+  padding: 10px 10px 10px 10px
+}
