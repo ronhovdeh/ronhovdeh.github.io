@@ -20,10 +20,28 @@ body {
     padding-top: 20px;
 }
 
+
 img{
 border:2px dotted slategray;
 padding: 10px 10px 10px 10px;
+  float:left;
+  margin-right: 10px;
+  clear:both;
+  
 }
+p{
+margin-left: 0px;
+padding-top: 0px;
+overflow:visible;
+display:block;
+}
+
+  margin-left: 0px;
+  padding-top: 0px;
+  overflow: visible;
+  display:inline;
+}
+
 .footer{
   border: 2px dotted slategray;
   margin-bottom: 5px;
