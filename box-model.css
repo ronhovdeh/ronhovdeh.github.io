@@ -59,7 +59,7 @@ border: 2px dotted slategray;
   color:white;
   padding: 10px 20px 10px 20px;
   background-color: darkslategrey;
-  background-radius: 6px;
+  border-radius: 6px;
 }
 
 .botnav{
