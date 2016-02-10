@@ -67,3 +67,11 @@ header {
   border-radius: 50%;
   overflow: hidden;
 }
+
+.prodcut-buy-it-now{
+align-items: center;
+}
+
+.product-info {
+  text-align: right;
+}
