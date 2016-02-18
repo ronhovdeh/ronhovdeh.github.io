@@ -1,0 +1,33 @@
+.box {   
+    width: 960px;
+    height: 570px;
+    margin: 4px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.mini { 
+    position:relative;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    border-width: 0px;
+    display: inline-block;
+ 
+}
+
+#blue {
+    background-color: blue;
+    top: 370px;
+    right: 408px;
+}
+
+#yellow {
+  background-color: yellow;
+  top:370px;
+  left:556px;
+}
+#green {
+float:right;
+}
