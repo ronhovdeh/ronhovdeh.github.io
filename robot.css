@@ -1,60 +1,199 @@
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
-
-.head,.chest {
-postion:absolute;
-  left:0;
-  right:0;
-  margin:auto
+@keyframes light  {
+  from {background-color:black;}
+  to {background-color:yellow;}
+  
+  @keyframes circle {
+    from {background-color:black;}
+    to {background-color:red;}
+     }
+  
+}
+.head,.chest{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .robot {
   position: relative;
-  width:500px;
-  margin:50px auto;
+  width: 500px;
+  margin: 50px auto;
 }
 
 .head {
   position: absolute;
   width: 100px;
   height: 60px;
-  border: 2px solid gray;
-  background:white;
+  border: 3px solid gray;
+  background: white;
 }
 
 .atenna {
-  width:2px;
-  height:20px;
-  background: gray;
+  width: 1px;
+  height: 20px;
+  background: purple;
   position: absolute;
-  top:-20px;
-  left:0;
-  right:0;
-  margin:auto;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .light {
-  width: 15px;
-  height:15 px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
-  background: gray;
-  position:absolute;
+  background: purple;
+  position: absolute;
   top: -10px;
-  left:-6px;
+  left: -6px;
+  animation-name: light;
+ animation-duration: 4s; 
 }
+
 .eye {
   width: 10px;
-  height:10px;
-  background: gray;
+  height: 10px;
+  background: black;
   position: absolute;
-  top: -15px
+  top: 15px;
 }
+
 
 .eye.left {
-left: 20px;
+  left: 20px;
+}
+.eye.right {
+  right: 20px;
+}
+.chest {
+  width: 130px;
+  border: 3px solid gray;
+  height: 105px;
+  position: absolute;
+  top: 58px;
 }
 
-.eye.right {
-right:20px;
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: purple;
+  position:relative;
+  top: 33px;
+  left: 50px;
+  }
+
+.arm-left {
+  position: absolute;
+  height: 25px;
+  width: 80px;
+  top: -32px;
+  left:-130px;
+  border: 2px solid gray;
+}
+.arm-leftjoint {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border: 2px solid gray;
+  background: purple;
+  border-radius: 50%;
+  top: -207px;
+  left:-103px;
+}
+.arm-lefthang{
+ width: 25px;
+  border: 3px solid gray;
+  height: 70px;
+  background: white;
+  position: absolute;
+  top: 24px;  
+  left:.5px  
+}
+
+.hand-left{
+  .hand.left {
+  left: -20px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+  
+}
+.arm-right {
+  position: absolute;
+  height: 25px;
+  width: 80px;
+  top: -2px;
+  left: 204px;
+  border: 2px solid gray; 
+}
+.arm-rightjoint{
+position: absolute;
+  height: 30px;
+  width: 30px;
+  border: 2px solid gray;
+  background: purple;
+  border-radius: 50%;
+  top: -30px;
+  left:280px;  
+}
+.arm-righthang{
+width: 25px;
+  border: 3px solid gray;
+  height: 70px;
+  background: white;
+  position: absolute;
+  top: 24px;  
+  left:.5px;  
+}
+
+.waist {
+   width: 130px;
+  border: 3px solid gray;
+  height: 105px;
+  position: absolute;
+  top: 98px;
+  right:77px;
+}
+  
+.leg-1 {
+width: 25px;
+  border: 3px solid gray;
+  height: 70px;
+  background: white;
+  position: absolute;
+  top: 100px;  
+  left:-2px; 
+}
+.leg-2 {
+width: 25px;
+  border: 3px solid gray;
+  height: 70px;
+  background: white;
+  position: absolute;
+  top: -2px;  
+  left:100px; 
+}
+.shoe1 {
+ position: absolute;
+  height: 25px;
+  width: 30px;
+  top: 222px;
+  left:-65px;
+  border: 2px solid gray;
+  background:black; 
+}
+.shoe2 {
+ position: absolute;
+  height: 25px;
+  width: 30px;
+  top: -3px;
+  left:-155px;
+  border: 2px solid gray;
+  background:black; 
 }
