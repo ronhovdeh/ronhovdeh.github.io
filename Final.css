@@ -1,0 +1,127 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:aliceblue;
+  }
+.main-container {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.promo-container {
+    background: skyblue;
+    background-image: url(images3/piano.jpeg);
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/   
+}
+
+header {
+    display: flex;
+}
+
+.branding {
+    font-family:'Montserrat',sans-serif;
+    text-shadow: 4px 4px 2px white;
+    font-size: 50px;
+    font-style: italic;
+    width:90px;
+    height:80px;
+    margin-right:center;
+  
+}
+
+.pill-button {
+    float: center;
+    background: grey;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+color: yellow
+}
+
+  
+
+.promo {
+    background: grey;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+/* Big Promo */
+
+#big-promo {
+    position: relative;
+    padding-top: 300px;
+    height: 500px;
+}
+
+.promo-message {
+    position: absolute;
+    bottom: 60px;
+    left: 40%;
+    height: 200px;
+    width: 30%;
+    border: 0px solid #ff0000;
+    text-align: center;
+    
+}
+
+/* Product Features */
+
+.product-features, .product-buy-it-now {
+  display: flex;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 0 auto;
+  border-radius: 0%;
+  overflow: hidden;
+}
+
+.product-buy-it-now {
+  align-items: right;
+}
+.product-image{
+align-content: right; 
+}
+.product-info {
+  text-align: left;
+    color: black;
+    border: 0px solid red;
+    width: 100%;
+  float:left;
+}
+
+/* Product Reviews */
+
+#product-reviews {
+  background: skyblue;
+  color: white;
+  text-align: right;
+  padding: 60px;
+  }
+
+/* Footer */
+
+footer {
+  display:right;
+  padding: 20px 10px 15px 10px;
+  font-size: 15px;
+}
