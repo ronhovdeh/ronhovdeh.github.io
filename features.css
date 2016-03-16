@@ -43,7 +43,7 @@ height: 570px;
 }
 
 .box-3{
-    height: 570px;
+    height: 270px;
     width: 960px;
     border: solid 5px;
 }
@@ -52,9 +52,12 @@ height: 570px;
     background:red;
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: center;
   top: 0px;
   right:750px;
+  background-image: url(images3/cello.jpg);
+  height: 200px;
+  width; 300px;
     
 }
 
@@ -64,7 +67,10 @@ height: 570px;
     height: 200px;
     position: absolute;
     top: 0px;
-    right: 130px;
+    right: 180px;
+    background-image: url(images3/black2.jpg);
+  height: 200px;
+  width:300px;
 }
 
 .blue{
@@ -73,7 +79,9 @@ height: 570px;
     height: 200px;
     position: absolute;
     bottom: 0px;
-    
+    background-image: url(images3/acoustic2.jpg);
+  height:200px;
+  width:100px;   
 }
 
 .yellow{
@@ -82,61 +90,60 @@ height: 570px;
     height: 200px;
     position: absolute;
     bottom: 0px;
-    right: 130px;  
+    right: 160px; 
+  background-image: url(images3/piano2a.jpg);
+  height: 200px;
+  width:300px;
 }
 
 /* box-2*/
 
 .red2{
-    background: red;
-    width: 240px;
-    height: 560px;
+background-image:url(images3/concert2.jpg);
+  height: 570px;
+  width:960px;
 }
 
-.green2{
-    background: green;
-    width: 240px;
-    height: 560px;
-}
-
-.blue2{
-    background: darkblue;
-    width: 240px;
-    height: 560px;
-}
-
-.yellow2{
-    background: yellow;
-    width: 240px;
-    height: 560px;
-}
 
 /* box-3*/
 .red3{
     background: red;
-    margin: 20px;
-    width:920px;
-    height:120px;
+     width: 230px;
+    height: 260px;
+  margin-bottom: 300px;
+  display:inline-block;
+  background-image:url(images3/bw2.jpg);
 }
 
 .green3{
     background: green;
-    width:175px;
-    height:395px;
-    margin: 20px;
-   
+     width: 230px;
+    height: 260px;
+  margin-bottom: 300px;
+  display:inline-block;
 }
 
 .blue3{
-    background: darkblue;
-     width:730px;
-    height:395px;
-    margin: -415px 210px 20px; 
-    
+     background: darkblue;
+       width: 230px;
+    height: 260px;
+  margin-bottom: 300px;
+  display:inline-block;
 }
 
+.yellow3{
+    background: yellow;
+    width: 240px;
+    height: 260px;
+  margin-bottom:300px;
+  display:inline-block;
+}
 
-
+footer {
+  display:right;
+  padding: 20px 10px 15px 10px;
+  font-size: 15px;
+}
 
 
 
