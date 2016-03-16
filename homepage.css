@@ -38,7 +38,7 @@ header {
 .pill-button {
     float: center;
     background: grey;
-    padding: 10px 30px 10px 30px;
+    padding: 5px 30px 10px 30px;
     border-radius: 30px;
     color: white;
     text-decoration: none;
